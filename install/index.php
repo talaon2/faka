@@ -60,7 +60,7 @@ function checkclass($f,$m = false) {
 		<h3 class="panel-title" align="center">安装说明</h3>
 	</div>
 	<div class="panel-body">
-		<p>欢迎您使用吾爱破解自动发卡系统，吾爱破解官网https://www.52pojie.cn/</p>
+		<p>欢迎您使用自动发卡系统</p>
 		<?php if($installed){ ?>
 		<div class="alert alert-warning">您已经安装过，如需重新安装请删除<font color=red> install/install.lock </font>文件后再安装！</div>
 		<?php }else{?>
