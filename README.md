@@ -13,11 +13,14 @@ ABC支付接口申请地址：http://pay.sddyun.cn/user/reg.php
  码支付经过测试好用，第一个没测试
  
  
-20190809更新 增加了一个新的支付对接方式
+***20190809更新 增加了一个新的支付对接方式***
 
 
-申请 http://woyipay.com
+申请地址 http://woyipay.com
+
+```
 other1/submit.php   24和25行   修改成你自己的商户支付ID和通信密钥
+```
 
 如果切换成码支付的，修改js/ayangw.js 第95行
 
