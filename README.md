@@ -30,4 +30,26 @@ window.location.href ="other1/submit.php?"+u;  这个是码支付的
 window.location.href ="other2/submit.php?"+u;  这个是woyipay的
 ```
 
+```
+ABC支付接口修改下面两个文件:
 
+other/submit.php   51行   修改成你自己的商户ID
+
+other/epay/epay.config.php    修改成你自己的商户ID和商户密钥
+
+
+
+码支付接口修改下面两个文件:
+
+other1/submit.php   24和25行   修改成你自己的码支付ID和通信密钥
+
+other1/codepay_return.php   14行  修改成你自己的通信密钥
+
+
+
+沃易付接口修改下面两个文件:
+
+other2/submit.php   24和25行   修改成你自己的码支付ID和通信密钥
+
+other2/codepay_return.php   14行  修改成你自己的通信密钥
+````
