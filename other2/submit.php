@@ -21,8 +21,8 @@ if (!$row || $row['money'] != $_GET['money']) {
 //error_reporting(E_ALL & ~E_NOTICE); //过滤脚本提醒
 date_default_timezone_set('PRC'); //时区设置 解决某些机器报错
 //接口配置
-$codepay_config['id'] = '196132';                              //码支付ID
-$codepay_config['key'] = 'CB95396BC5E1FC9ABA879C24146C3302';  //通信密钥
+$codepay_config['id'] = '';                              //付ID
+$codepay_config['key'] = '';  //通信密钥
 //字符编码格式 目前支持 gbk GB2312 或 utf-8 保证跟文档编码一致 建议使用utf-8
 $codepay_config['chart'] = strtolower('utf-8');
 
