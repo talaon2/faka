@@ -1,10 +1,10 @@
 # 个人发卡源码
 
-源码来源于网上  演示网站 https://faka.ssrsu.com
+源码来源于网上 这里只是增加一个支付方式 别的没做修改 演示网站 https://faka.ssrsu.com
 
 `详细请看使用说明`
 
-目前这个源码里集成了两个支付
+源码之前集成了两个支付
 
 ABC支付接口申请地址：http://pay.sddyun.cn/user/reg.php
 
@@ -18,9 +18,6 @@ ABC支付接口申请地址：http://pay.sddyun.cn/user/reg.php
 
 申请地址 http://woyipay.com
 
-```
-other1/submit.php   24和25行   修改成你自己的商户支付ID和通信密钥
-```
 
 如果切换成码支付的，修改js/ayangw.js 第95行
 
