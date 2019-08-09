@@ -21,8 +21,10 @@ other1/submit.php   24和25行   修改成你自己的商户支付ID和通信密
 
 如果切换成码支付的，修改js/ayangw.js 第95行
 
+```
 window.location.href ="other/submit.php?"+u;  这个是ABC云支付的
 window.location.href ="other1/submit.php?"+u;  这个是码支付的
 window.location.href ="other2/submit.php?"+u;  这个是woyipay的
+```
 
 
