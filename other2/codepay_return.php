@@ -11,7 +11,7 @@ $_POST = $_GET;
 ksort($_POST); //排序post参数
 reset($_POST); //内部指针指向数组中的第一个元素
 $sign = '';
-$conf['xq_key'] = 'CB95396BC5E1FC9ABA879C24146C3302';  //通信密钥
+$conf['xq_key'] = '';  //通信密钥
 
 foreach ($_POST AS $key => $val) { //遍历POST参数
     if ($val == '' || $key == 'sign' || $key == 'sign_type') continue; //跳过这些不签名
