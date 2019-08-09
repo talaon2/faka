@@ -57,7 +57,7 @@ where YEAR(benTime) = YEAR(NOW()) and  day(benTime) = day(NOW()) and MONTH(benTi
 			<b>网站客服QQ：</b><?php echo $conf['zzqq'] ?>
 		</li>
 		<li class="list-group-item">
-			<b>源码来源：</b><a href="https://www.52pojie.cn/">吾爱破解</a>
+			<b>源码来源：</b><a href="https://h5.ssrsu.com/">H5游戏分享</a>
 		</li>
 		<li class="list-group-item">
 			<b>检查更新：</b><span id="up"><?php if($s['v']<=VERSION){ echo "<font STYLE='color: green;'>最新版本</font>";}else{ echo "<font STYLE='color:red;'>发现新版本</font>";}?></span>
